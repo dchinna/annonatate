@@ -1,0 +1,37 @@
+---
+canvas: "https://dchinna.github.io/annonatate/img/derivatives/iiif/Sample/canvas/Sample-1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Snail",
+            "purpose": "tagging",
+            "creator": {
+                "id": "dchinna",
+                "name": "dchinna"
+            },
+            "created": "2023-02-28T19:16:35.477Z",
+            "modified": "2023-02-28T19:16:36.214Z"
+        }
+    ],
+    "target": {
+        "source": "https://dchinna.github.io/annonatate/img/derivatives/iiif/Sample/canvas/Sample-1",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"966.4225463867188,2814.0966796875 -784.3536987304688,2814.0966796875 -784.3536987304688,3072.7822265625 966.4225463867188,3072.7822265625\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dchinna.github.io/annonatate/img/derivatives/iiif/Sample/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "f6507936-164f-4888-9ada-24b50b0b1b51.json",
+    "motivation": "commenting"
+}
