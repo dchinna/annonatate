@@ -1,0 +1,37 @@
+---
+canvas: "https://dchinna.github.io/annonatate/img/derivatives/iiif/Sample/canvas/Sample-1"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Bird",
+            "purpose": "tagging",
+            "creator": {
+                "id": "dchinna",
+                "name": "dchinna"
+            },
+            "created": "2023-02-28T19:17:17.299Z",
+            "modified": "2023-02-28T19:17:18.422Z"
+        }
+    ],
+    "target": {
+        "source": "https://dchinna.github.io/annonatate/img/derivatives/iiif/Sample/canvas/Sample-1",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3958.040283203125,2873.039306640625 4850.42626953125,2890.037109375 4850.199808835021,2901.9263138167116 3957.813822506896,2884.9285110823366\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dchinna.github.io/annonatate/img/derivatives/iiif/Sample/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "b1b60e81-bc35-46da-9a79-58c773851641.json",
+    "motivation": "commenting"
+}
